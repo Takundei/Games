@@ -38,7 +38,6 @@ int main()
     		k = Puzzle->solve();
     		if(k == -1){
     		cout<<"Puzzle can no longer be solved"<<endl;
-    		//return 0;
     		}else{
     		cout<<"Number of moves required to win from current position: "<<k<<endl;
     		}
