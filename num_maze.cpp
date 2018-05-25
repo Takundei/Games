@@ -44,5 +44,7 @@ int main()
     		}
     }
     cout<<"PUZZLE SOLVED IN "<<moves<<" MOVES!"<<endl;
+    delete Puzzle;
     return 0;
 }
+
