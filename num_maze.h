@@ -91,16 +91,16 @@ int PuzzleBoard::makeMove_comp(int direction,int distance,int row, int col)
 {
     switch (direction)
     {
-    case 0://U
+    case 0://Up
         return std::max(-1,row - distance);
         break;
-    case 3://L
+    case 3://Left
         return std::max(-1,col - distance);
         break;
-    case 2://D
+    case 2://Down
         return (boardsize > row + distance)? row+distance: -1;
         break;
-    default://R
+    default://Right
         return (boardsize > col +distance) ? col +distance : -1;
         break;
     }
