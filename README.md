@@ -7,3 +7,7 @@ Given a sqaure board with numbers at each tile, travel from the the top-left cor
 3) You must stay on the board at all times
 
 After each move the game prints the number of moves needed to solve the maze from the current possition.  
+
+**BlackJack**
+
+The game of black jack. For how the game works, please refer to [this article](https://en.wikipedia.org/wiki/Blackjack)
