@@ -25,7 +25,7 @@ int main()
     	
     cout<<*Puzzle;
     while(!Puzzle->getResult()){
-    		cout<<"MOVES:  U: 0 ; L:3 ; D:2; R:1"<<endl;
+    		cout<<"MOVES:  U: 0 ; L:3 ; D:2; R:1"<<endl;//Up , Left, Down, Right
     		cout<<">>> ";
     		cin>>direction;
     		move = Puzzle->makeMove(direction);
