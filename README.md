@@ -11,3 +11,14 @@ After each move the game prints the number of moves needed to solve the maze fro
 **BlackJack**
 
 The game of black jack. For how the game works, please refer to [this article](https://en.wikipedia.org/wiki/Blackjack)
+
+**Word Guessing Game Server**
+
+This is a solution to the following problem from the Operating Systems course at JUB: 
+
+The word guessing game challenges clients to guess words missing in dynamically created phrases.
+The game is implemented as a standalone server. After starting up and binding to a port specified
+on the command line, the server accepts incoming connections from clients and it greets them by
+sending a generic message.The client can send a quit message to leave the session at anytime.
+The server obtains the phrases via the program `fortune`.
+
